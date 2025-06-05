@@ -1,10 +1,15 @@
 package main
 
-import "github.com/pos-consensus/blockchain";
+import ("github.com/dheerajkumardk/pos-consensus/blockchain"
+//  "github.com/dheerajkumardk/pos-consensus/consensus"
+//  "github.com/dheerajkumardk/pos-consensus/network"
+)
 
 func main() {
-	print("hello!")
+	print("hello!");
 
 	// call package blockchain
-	blockchain.block()
+	blockchain.Block();
+
+	blockchain.Chain();
 }

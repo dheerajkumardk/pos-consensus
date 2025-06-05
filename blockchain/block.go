@@ -1,5 +1,5 @@
 package blockchain
 
-func block() {
-	print("block")
+func Block() {
+	print("block");
 }

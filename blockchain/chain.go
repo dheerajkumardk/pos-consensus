@@ -1,5 +1,5 @@
 package blockchain
 
-func chain() {
+func Chain() {
 	print("chain")
 }
